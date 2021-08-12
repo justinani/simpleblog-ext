@@ -11,18 +11,8 @@
     "require": {
         "typo3/cms-core": "^9.5"
     },
-    "autoload": {
-        "psr-4": {
-            "ExtbaseBook\\Simpleblog\\": "Classes"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ExtbaseBook\\Simpleblog\\Tests\\": "Tests"
-        }
-    },
     "replace": {
-        "typo3-ter/simpleblog": "self.version"
+        "typo3-ter/simpleblog-ext": "self.version"
     },
     "extra": {
         "typo3/cms": {
