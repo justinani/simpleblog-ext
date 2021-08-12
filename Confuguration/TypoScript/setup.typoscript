@@ -1,0 +1,7 @@
+plugin.tx_simpleblog_bloglisting {
+    settings {
+        blog {
+            max = 10
+        }
+    }
+}
